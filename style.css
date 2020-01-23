@@ -1,0 +1,127 @@
+@font-face {
+    font-family:'Arvo';
+    src: url('fonts/Arvo-Bold.eot');
+    src: url('fonts/Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Arvo-Bold.woff2') format('woff2'),
+    url('fonts/Arvo-Bold.woff') format('woff'),
+    url('fonts/Arvo-Bold.ttf') format('truetype'),
+    url('fonts/Arvo-Bold.svg#Arvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+header{
+    background-color: #af2024;
+    height: 40px;
+    margin-bottom: 18px;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+
+}
+
+body{
+    background-image: url("images/background_image.png");
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-color: #3f0002;
+
+}
+.block{
+    max-width: 710px;
+    margin: auto;
+    background-color: #ffffff;
+    padding-bottom: 130px;
+    position:relative;
+    top: 30px;
+}
+
+.block h2{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #98161b;
+    line-height: 70px;
+    padding-left: 18px;
+    margin-bottom: 63px;
+    font-family:'Arvo';
+}
+
+.video{
+
+    width: 80%;
+    height: 346px;
+    background-color: #e7e7e7;
+    position: relative;
+    margin: auto;
+
+}
+.video:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #98161b;
+    border-bottom: 50px solid transparent;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.facebook{
+    position: fixed;
+    top: 262px;
+    right: 0;
+}
+.twitter{
+    position: fixed;
+    top: 312px;
+    right: 0;
+}
+.block_text{
+    padding-left: 71px;
+    padding-right: 71px;
+}
+h3{
+
+    padding-top: 30px;
+    font-size: 15px;
+    color: #98161b;
+    font-family:'Arvo';
+}
+h3 span{
+    color: #7d7d7d;
+}
+
+
+p{
+    padding-left: 71px;
+    padding-right: 71px;
+    color: #98161b;
+    font-size: 18px;
+    font-family:'Arvo';
+}
+
+p:before{
+    content: "..........";
+    color: #98161b;
+    font-size: 18px;
+    display: block;
+    padding-bottom: 18px;
+}
+
+footer{
+    background-color: #000;
+    height: 450px;
+}
